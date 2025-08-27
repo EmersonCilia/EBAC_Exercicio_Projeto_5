@@ -31,9 +31,6 @@ export const DadosContato = styled.div`
   display: flex;
   justify-content: space-between;
 
-  span {
-    line-height: 14px;
-  }
   @media (max-width: 480px) {
     flex-direction: column;
     gap: 8px
