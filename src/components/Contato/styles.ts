@@ -36,6 +36,7 @@ export const DadosContato = styled.div`
   }
   @media (max-width: 480px) {
     flex-direction: column;
+    gap: 8px
   }
 `
 export const Descricao = styled.textarea`
