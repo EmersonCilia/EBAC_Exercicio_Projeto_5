@@ -34,6 +34,9 @@ export const DadosContato = styled.div`
   span {
     line-height: 14px;
   }
+  @media (max-width: 480px) {
+    flex-direction: column;
+  }
 `
 export const Descricao = styled.textarea`
   color: #8b88b8;
